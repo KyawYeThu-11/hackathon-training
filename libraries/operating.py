@@ -1,5 +1,8 @@
 import os
 
+greet = 'hello thate pan hub'
+print(greet.title())
+
 # getcwd
 print(os.getcwd())
 

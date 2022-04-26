@@ -1,4 +1,4 @@
-students = ["Hermione", "Harry", "Rob"]
+students = ["Hermione", "Harry", "Ron"]
 
 # Iterating over
 for student in students:
