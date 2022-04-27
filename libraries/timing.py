@@ -2,12 +2,12 @@ from datetime import date, datetime, timedelta
 import time
 
 # today
-today = date.today()
+today = date.today
 print(today)
 print(today.day)
 
 # now
-now = datetime.now()
+now = datetime.now
 print(now)
 print(now.year)
 print(now.month)

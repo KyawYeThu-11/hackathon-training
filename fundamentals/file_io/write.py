@@ -1,21 +1,10 @@
-# no 'with' + write mode
+# write mode
 name = input("What's your name? ")
 
-file = open("names.txt", "w")
-file.write(name)
-file.close()
+with open('names.txt', 'w') as file:
+    file.write(f"name")
 
-# # no 'with' + append mode
-# name = input("What's your name? ")
-
-# file = open("names.txt", "a")
-# file.write(f'{name}\n')
-# file.close()
-
-
-# # with keyword
-# name = input("What's your name? ")
-
+# # append mode
 # with open("names.txt", "a") as file:
 #     file.write(f"{name}\n")
 

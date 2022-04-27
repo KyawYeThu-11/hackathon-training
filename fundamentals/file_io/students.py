@@ -1,5 +1,7 @@
 # Reads a CSV file into a list of dict objects
+# # We want to get a list of dictionaries (a list of students' info)
 students = []
+
 
 # with open('students.csv') as file:
 #     for line in file:

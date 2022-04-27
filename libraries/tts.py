@@ -1,5 +1,4 @@
 from gtts import gTTS
-import os
   
 # Language in which you want to convert
 input_text = input('Enter a text:')
@@ -10,5 +9,3 @@ myobj = gTTS(text=input_text, lang='my', slow=False)
 # welcome 
 myobj.save("welcome.mp3")
   
-# Playing the converted file
-os.system("mpg321 welcome.mp3")

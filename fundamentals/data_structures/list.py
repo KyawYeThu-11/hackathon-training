@@ -1,5 +1,8 @@
 students = ["Hermione", "Harry", "Ron"]
 
+# indexing
+print(students[2])
+
 # Iterating over
 for student in students:
     print(student)

@@ -1,24 +1,25 @@
-# system.exit()
-import sys
-
+# else
 try:
     age = int(input('Enter your age: '))
-except:
+except NameError:
     print('What you entered is not a valid age.')
-    sys.exit()
-
-if age < 18:
-    print('You are not allowed to drive.')
 else:
-    print('Yes. You may drive.')
+    if age < 18:
+        print('You are not allowed to drive.')
+    else:
+        print('Yes. You may drive.')
 
-# # else
+# # system.exit()
+# import sys
+
 # try:
 #     age = int(input('Enter your age: '))
-# except NameError:
+# except:
 #     print('What you entered is not a valid age.')
+#     sys.exit()
+
+# if age < 18:
+#     print('You are not allowed to drive.')
 # else:
-#     if age < 18:
-#         print('You are not allowed to drive.')
-#     else:
-#         print('Yes. You may drive.')
+#     print('Yes. You may drive.')
+

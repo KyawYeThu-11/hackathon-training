@@ -6,6 +6,9 @@ students = {
     "Draco": "Slytherin",
 }
 
+# indexing
+print(students['Draco'])
+
 # # Simple iteration
 # for student in students:
 #     print(student)
@@ -35,11 +38,5 @@ students = [
 for student in students:
     print(student["name"], student["major"], student["age"], sep=", ")
 
-    
-# # sorting dictionary
-# def get_age(student):
-#     return student['age']
 
-# for student in sorted(students, key=get_age, reverse=True):
-#     print(student["name"], student["major"], student["age"], sep=", ")
 
